@@ -1,0 +1,309 @@
+body {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-x: hidden;
+}
+
+body #section1 {
+  padding: 0%;
+  background: url(../images/desktop/image-header.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+
+body #section1 #navbar {
+  padding: 1.5% 5% 3%;
+}
+
+body #section1 #navbar .brand {
+  font-weight: 900;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+body #section1 #navbar .navbar-links {
+  margin-right: 8%;
+}
+
+body #section1 #navbar .navbar-links .items {
+  padding: 2% 4%;
+}
+
+body #section1 #navbar .navbar-links .items a {
+  color: #fff;
+  size: 1rem;
+}
+
+body #section1 #navbar .navbar-links .items .btn-link {
+  color: #000;
+  font-family: "Fraunces";
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+body #section1 #navbar .navbar-links .btn-con {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 50px;
+}
+
+body #section1 #navbar .navbar-links .btn-con:hover {
+  background-color: #00bfff;
+}
+
+body #section1 #column .creatives {
+  color: white;
+  padding: 4% 0 2%;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+
+body #section1 #column .arrow {
+  padding: 2% 0;
+}
+
+body #section2 {
+  text-align: center;
+}
+
+body #section2 .b-data .text {
+  padding: 0%;
+}
+
+body #section2 .b-data .text .b-txt {
+  text-align: start;
+  padding: 25% 16% 25%;
+  margin: 0;
+}
+
+body #section2 .b-data .text .b-txt .b-heading {
+  font-size: 2.8rem;
+  color: #23303e;
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+
+body #section2 .b-data .text .b-txt .description {
+  font-size: 1rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  color: #5a636c;
+  padding: 5% 0 5%;
+}
+
+body #section2 .b-data .text .b-txt span {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+body #section2 .b-data .col-img {
+  padding: 0%;
+}
+
+body #section2 .b-data .col-img .img {
+  width: 100%;
+  height: 100%;
+}
+
+body #section3 {
+  text-align: center;
+}
+
+body #section3 #g-p .hold-img {
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #section3 #g-p .hold-img .gp-img {
+  width: 100%;
+  height: 100%;
+}
+
+body #section3 #g-p .hold-img .contain {
+  position: absolute;
+  padding: 15% 20%;
+  top: 35%;
+}
+
+body #section3 #g-p .hold-img .contain .head {
+  font-size: 150%;
+  font-family: "Fraunces";
+  font-weight: 600;
+  color: #155648;
+  line-height: 2;
+}
+
+body #section3 #g-p .hold-img .contain .para {
+  line-height: 1.5;
+  color: #155648;
+  font-weight: 500;
+}
+
+body #section4 #row1 {
+  text-align: center;
+}
+
+body #section4 #row1 .heading-1 {
+  margin: 5% 0 0;
+}
+
+body #section4 #row1 .heading-1 .mainHeading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  color: #818498;
+}
+
+body #section4 #test {
+  padding: 3% 18%;
+  text-align: center;
+}
+
+body #section4 #test .test-data .c-img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+body #section4 #test .test-data .c-para {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 16% 0%;
+  font-family: "Barlow";
+  color: #19536b;
+}
+
+body #section4 #test .test-data .sub-heading {
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Fraunces";
+}
+
+body #section4 #test .test-data .des {
+  font-size: 1rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  color: #818498;
+  margin-bottom: 8%;
+}
+
+body #section5 {
+  text-align: center;
+}
+
+body #section5 #prod-row .col-pic {
+  padding: 0%;
+}
+
+body #section5 #prod-row .col-pic .products {
+  width: 100%;
+}
+
+body #section6 {
+  text-align: center;
+  background-color: #96ded1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #section6 .contains {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #section6 .contains .sunny {
+  margin: 8% 0 3%;
+  font-size: 2rem;
+  font-family: "Fraunces";
+  font-weight: 600;
+  color: #458c7e;
+}
+
+body #section6 .contains .anchors {
+  margin-top: 2%;
+}
+
+body #section6 .contains .anchors .anch {
+  padding: 0% 3%;
+  text-decoration: none;
+  color: #458c7e;
+  font-weight: 600;
+  font-family: "Barlow";
+}
+
+body #section6 .contains .socials {
+  margin: 4% 0 0%;
+}
+
+body #section6 .contains .socials a {
+  padding: 0 1%;
+  color: #458c7e;
+}
+
+body #section6 .contains .socials a:hover {
+  color: black;
+}
+
+body #section6 .contains .attribution {
+  font-family: "Barlow";
+  font-weight: 600;
+  margin: 0 0 5%;
+}
+
+body #section6 .contains .attribution .hehe {
+  color: #23303e;
+  font-family: "Fraunces";
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 430px) {
+  body #section3 #g-p .hold-img .contain {
+    padding: 15% 20%;
+    top: 32%;
+  }
+  body #section3 #g-p .hold-img .contain .head {
+    font-size: 90%;
+  }
+  body #section3 #g-p .hold-img .contain .para {
+    line-height: 1;
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

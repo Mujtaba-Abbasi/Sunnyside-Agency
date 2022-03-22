@@ -1,0 +1,268 @@
+body {
+  display: block;
+  justify-content: center;
+  overflow-x: hidden;
+  #section1 {
+    padding: 0%;
+    background: url(../images/desktop/image-header.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    #navbar {
+      padding: 1.5% 5% 3%;
+
+      .brand {
+        font-weight: 900;
+        color: #fff;
+        font-size: 1.6rem;
+      }
+      .navbar-links {
+        margin-right: 8%;
+        .items {
+          padding: 2% 4%;
+          a {
+            color: #fff;
+            size: 1rem;
+          }
+          .btn-link {
+            color: #000;
+            font-family: "Fraunces";
+            font-size: 1.1rem;
+            font-weight: 800;
+          }
+        }
+        .btn-con {
+          background-color: #fff;
+          width: 100%;
+          border-radius: 50px;
+        }
+        .btn-con:hover {
+          background-color: #00bfff;
+        }
+      }
+    }
+    #column {
+      .creatives {
+        color: white;
+        padding: 4% 0 2%;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        font-family: "Fraunces";
+        font-weight: 900;
+        letter-spacing: 0.4rem;
+      }
+      .arrow {
+        padding: 2% 0;
+      }
+    }
+  }
+
+  #section2 {
+    text-align: center;
+    .b-data {
+      .text {
+        padding: 0%;
+        .b-txt {
+          text-align: start;
+          padding: 25% 16% 25%;
+          margin: 0;
+
+          .b-heading {
+            font-size: 2.8rem;
+            color: hsl(212, 27%, 19%);
+            font-family: "Fraunces";
+            font-weight: 900;
+          }
+          .description {
+            font-size: 1rem;
+            font-family: "Barlow";
+            font-weight: 600;
+            color: hsl(213, 9%, 39%);
+            padding: 5% 0 5%;
+          }
+          span {
+            text-align: left;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: "Fraunces";
+            align-self: flex-start;
+          }
+        }
+      }
+      .col-img {
+        padding: 0%;
+        .img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  #section3 {
+    text-align: center;
+    #g-p {
+      .hold-img {
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .gp-img {
+          width: 100%;
+          height: 100%;
+        }
+        .contain {
+          position: absolute;
+          padding: 15% 20%;
+          top: 35%;
+          .head {
+            font-size: 150%;
+            font-family: "Fraunces";
+            font-weight: 600;
+            color: hsl(167, 61%, 21%);
+            line-height: 2;
+          }
+          .para {
+            line-height: 1.5;
+            color: hsl(167, 61%, 21%);
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  #section4 {
+    #row1 {
+      text-align: center;
+      .heading-1 {
+        margin: 5% 0 0;
+        .mainHeading {
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          font-family: "Fraunces";
+          font-weight: 800;
+          letter-spacing: 0.3rem;
+          color: hsl(232, 10%, 55%);
+        }
+      }
+    }
+
+    #test {
+      padding: 3% 18%;
+      text-align: center;
+      .test-data {
+        .c-img {
+          width: 20%;
+          border-radius: 50%;
+        }
+        .c-para {
+          font-size: 0.9rem;
+          line-height: 1.5;
+          font-weight: bold;
+          margin: 16% 0%;
+          font-family: "Barlow";
+          color: hsl(198, 62%, 26%);
+        }
+        .sub-heading {
+          font-size: 0.8rem;
+          font-weight: bold;
+          font-family: "Fraunces";
+        }
+        .des {
+          font-size: 1rem;
+          font-family: "Barlow";
+          font-weight: 600;
+          color: hsl(232, 10%, 55%);
+          margin-bottom: 8%;
+        }
+      }
+    }
+  }
+
+  #section5 {
+    text-align: center;
+    #prod-row {
+      .col-pic {
+        padding: 0%;
+        .products {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #section6 {
+    text-align: center;
+    background-color: #96ded1;
+    display: flex;
+    flex-direction: column;
+    .contains {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .sunny {
+        margin: 8% 0 3%;
+        font-size: 2rem;
+        font-family: "Fraunces";
+        font-weight: 600;
+        color: hsl(168, 34%, 41%);
+      }
+      .anchors {
+        margin-top: 2%;
+        .anch {
+          padding: 0% 3%;
+          text-decoration: none;
+          color: hsl(168, 34%, 41%);
+          font-weight: 600;
+          font-family: "Barlow";
+        }
+      }
+      .socials {
+        margin: 4% 0 0%;
+        a {
+          padding: 0 1%;
+          color: hsl(168, 34%, 41%);
+        }
+        a:hover {
+          color: black;
+        }
+      }
+      .attribution {
+        font-family: "Barlow";
+        font-weight: 600;
+        margin: 0 0 5%;
+        .hehe {
+          color: hsl(212, 27%, 19%);
+          font-family: "Fraunces";
+          text-decoration: none;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 430px) {
+    #section3 {
+      #g-p {
+        .hold-img {
+          .contain {
+            padding: 15% 20%;
+            top: 32%;
+            .head {
+              font-size: 90%;
+            }
+            .para {
+              line-height: 1;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

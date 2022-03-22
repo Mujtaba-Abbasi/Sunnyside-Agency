@@ -88,14 +88,31 @@ body {
             font-family: "Fraunces";
             align-self: flex-start;
           }
+          .yel:hover {
+            background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #fce041 50%
+            );
+            border-radius: 10px;
+          }
+
+          .reds:hover {
+            background: linear-gradient(
+              to bottom,
+              transparent 50%,
+              #e41111 50%
+            );
+            border-radius: 10px;
+          }
         }
       }
-      .col-img {
-        padding: 0%;
-        .img {
-          width: 100%;
-          height: 100%;
-        }
+    }
+    .col-img {
+      padding: 0%;
+      .img {
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -241,6 +258,9 @@ body {
           font-family: "Fraunces";
           text-decoration: none;
           font-size: 1.2rem;
+        }
+        .hehe:hover {
+          background: linear-gradient(to bottom, transparent 50%, #fce041 50%);
         }
       }
     }

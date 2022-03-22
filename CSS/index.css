@@ -107,11 +107,23 @@ body #section2 .b-data .text .b-txt span {
       align-self: flex-start;
 }
 
-body #section2 .b-data .col-img {
+body #section2 .b-data .text .b-txt .yel:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #fce041));
+  background: linear-gradient(to bottom, transparent 50%, #fce041 50%);
+  border-radius: 10px;
+}
+
+body #section2 .b-data .text .b-txt .reds:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #e41111));
+  background: linear-gradient(to bottom, transparent 50%, #e41111 50%);
+  border-radius: 10px;
+}
+
+body #section2 .col-img {
   padding: 0%;
 }
 
-body #section2 .b-data .col-img .img {
+body #section2 .col-img .img {
   width: 100%;
   height: 100%;
 }
@@ -291,6 +303,11 @@ body #section6 .contains .attribution .hehe {
   font-family: "Fraunces";
   text-decoration: none;
   font-size: 1.2rem;
+}
+
+body #section6 .contains .attribution .hehe:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #fce041));
+  background: linear-gradient(to bottom, transparent 50%, #fce041 50%);
 }
 
 @media (max-width: 430px) {
